@@ -7,7 +7,7 @@ class ArrayMax{
 		Scanner x=new Scanner(System.in);
 		number=x.nextInt();
 		
-		System.out.println("Enter elements of an array");
+		System.out.println("Enter elements of an array : ");
 		
 		int arr[]=new int[number];
 		for(int i=0;i<number;i++){
@@ -26,6 +26,6 @@ class ArrayMax{
 			}
 		}
 		
-		System.out.println("Maximum elements of an array:"+max);		
+		System.out.println("Maximum elements of an array : "+max);		
 	}
 }
