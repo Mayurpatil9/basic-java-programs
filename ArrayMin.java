@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-class ArrayMax{
+class ArrayMin{
 	public static void main(String []args){
 		int number;
 		System.out.println("Enter the length of an array");
@@ -13,7 +13,7 @@ class ArrayMax{
 		for(int i=0;i<number;i++){
 			arr[i]=x.nextInt();
 		}
-		int max=arr[0];
+		int min=arr[0];
 		
 		System.out.println("Array elements are");
 		for(int i=0;i<number;i++){
@@ -21,11 +21,11 @@ class ArrayMax{
 		}
 		
 		for(int i=1;i<number;i++){
-		    if(arr[i]>max){
-			  max=arr[i];
+		    if(arr[i]<min){
+			  min=arr[i];
 			}
 		}
 		
-		System.out.println("Maximum elements of an array:"+max);		
+		System.out.println("Minimum elements of an array:"+min);		
 	}
 }
